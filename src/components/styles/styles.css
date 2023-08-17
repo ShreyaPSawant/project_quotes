@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    column-gap: 12px;
+   /* // justify-content: space-between; */
+}
+
+  .element {
+    align-content: center;
+  }
+
+  .heading
+    {color: rgb(119, 213, 245);
+       text-align: center;
+  }
+  .subheading
+    {
+       text-align: center;
+  }
+  .singlelistitem{
+    /* width: 300px; */
+  margin: auto;
+  border: 3px solid red;
+ margin-top: 20px;
+ 
+  }
+.listitem{
+  list-style-type: none; 
+  color: rgb(118, 168, 237);
+}
+.author{
+  padding-left: 1120px;
+  padding-right: 50px;
+}
+.colour{
+  color: white;
+  background-color: grey;
+}
+
+.searchbar{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.space{
+  margin-left: 20px;
+}
+.authorlist{
+  margin-right: 860px;
+}
+
+.quote{
+  display: inline;
+}
+
+.navoption{
+
+  opacity: 95%;
+  background-color: rgb(156, 239, 239);
+  border-radius: 20%;
+  padding: 0.5%;
+}
+
+.navoption :hover {
+  background-color: rgb(9, 153, 179);
+  color: white;
+}
+.search{
+  text-align: center;
+}
+.authorlink :hover{
+  margin: auto;
+  border: 3px solid rgb(6, 26, 248);
+ margin-top: 20px;
+ margin-right: 1050px;
+}
